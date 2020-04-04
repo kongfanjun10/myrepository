@@ -1,0 +1,12 @@
+cd /Users/kfj/Documents/zookeeper-3.4.6/bin
+./zkServer.sh start
+ps aux|grep zookeeper
+cd /Users/kfj/Documents/redis-5.0.7/src
+redis-server
+
+ps aux|grep redis
+
+dbsize
+flushall
+keys *
+exit
